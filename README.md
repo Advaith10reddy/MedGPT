@@ -37,3 +37,29 @@ Each row is transformed into multiple QA pairs like:
   "prompt": "What is Abecma used for?",
   "response": "Abecma is a CAR T-cell therapy used for treating relapsed or refractory multiple myeloma..."
 }
+
+
+
+## 🧠 Model Architecture
+
+- 🔸 **Base**: [`medalpaca/medalpaca-7b`](https://huggingface.co/medalpaca/medalpaca-7b)
+- 🔸 **PEFT**: LoRA via [PEFT library](https://github.com/huggingface/peft)
+- 🔸 **Quantization**: 4-bit with `bnb_4bit` (BitsAndBytes) for memory efficiency
+- 🔸 **Tokenizer**: Based on LLaMA tokenizer (`LlamaTokenizer`)
+
+
+
+medical_bot/
+├── data/
+│   ├── excels/
+│   │   └── drug_data_full.xlsx          # Full raw dataset
+│   └── jsonl/
+│       └── drug_data_full.jsonl         # JSONL for training
+├── scripts/
+│   ├── train_medalpaca.py               # Fine-tuning script
+│   └── model/                           # Saved model and tokenizer
+├── colab/
+│   └── demo_colab.ipynb                 # Colab test notebook
+├── README.md
+└── requirements.txt
+
