@@ -1,4 +1,4 @@
-# 🧠 Med_AI: Medical LLM for Drug Information
+# 🧠 MedGPT: Medical LLM for Drug Information
 
 [![Model on Hugging Face](https://img.shields.io/badge/HuggingFace-MedAlpaca-yellow?logo=huggingface)](https://huggingface.co/medalpaca/medalpaca-7b)
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://www.python.org/)
@@ -6,10 +6,12 @@
 [![Stars](https://img.shields.io/github/stars/yourusername/medalpaca-medical-llm?style=social)](https://github.com/yourusername/medalpaca-medical-llm)
 
 ---
+##Please Note, currently the model has only been trained on all the drugs available in the US Starting from Albhates A to CR
+##More Incomming soon
 
 ## 🔍 Overview
 
-**MedAlpaca** is a domain-specific fine-tuned **Large Language Model (LLM)** that can answer natural language queries related to **medical drugs** including:
+**MedGPT** is a domain-specific fine-tuned **Large Language Model (LLM)** that can answer natural language queries related to **medical drugs** including:
 
 - ✅ What is a drug used for?
 - ✅ What is the generic name of a drug?
@@ -22,6 +24,7 @@
 **🌐 Hosting**: Ready for Hugging Face Spaces or Streamlit UI
 
 ---
+
 
 ## 🗂 Dataset
 
