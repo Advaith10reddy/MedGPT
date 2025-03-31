@@ -30,15 +30,6 @@
 - ✅ Format: Excel (`.xlsx`) and JSONL (`.jsonl`)
 - ✅ Columns: `Drug Name`, `Generic Name`, `Side Effects`, `Uses`
 
-Each row is transformed into multiple QA pairs like:
-
-```json
-{
-  "prompt": "What is Abecma used for?",
-  "response": "Abecma is a CAR T-cell therapy used for treating relapsed or refractory multiple myeloma..."
-}
-
-
 
 ## 🧠 Model Architecture
 
@@ -62,4 +53,14 @@ medical_bot/
 │   └── demo_colab.ipynb                 # Colab test notebook
 ├── README.md
 └── requirements.txt
+
+Each row is transformed into multiple QA pairs like:
+
+```json
+{
+  "prompt": "What is Abecma used for?",
+  "response": "Abecma is a CAR T-cell therapy used for treating relapsed or refractory multiple myeloma..."
+}'''
+
+
 
