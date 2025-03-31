@@ -60,7 +60,7 @@ Each row is transformed into multiple QA pairs like:
 {
   "prompt": "What is Abecma used for?",
   "response": "Abecma is a CAR T-cell therapy used for treating relapsed or refractory multiple myeloma..."
-}'''
+}
 
 
 
