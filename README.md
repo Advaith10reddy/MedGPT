@@ -6,7 +6,7 @@
 [![Stars](https://img.shields.io/github/stars/yourusername/medalpaca-medical-llm?style=social)](https://github.com/yourusername/medalpaca-medical-llm)
 
 ---
-##Please Note, currently the model has only been trained on all the drugs available in the US Starting from Albhates A to CR
+##Please Note, currently the model has only been trained on all the drugs available in the US Starting from Alphabets A to Cr
 ##More Incomming soon
 
 ## 🔍 Overview
