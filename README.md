@@ -43,6 +43,9 @@
 
 
 
+## 📁 Project Structure
+
+```bash
 medical_bot/
 ├── data/
 │   ├── excels/
@@ -56,6 +59,7 @@ medical_bot/
 │   └── demo_colab.ipynb                 # Colab test notebook
 ├── README.md
 └── requirements.txt
+
 
 Each row is transformed into multiple QA pairs like:
 
